@@ -2,7 +2,152 @@
 import random
 import pandas as pd
 
-# Keep your existing exercise_details dictionary exactly as before (no changes needed here)
+# Exercise details dictionary (complete and correct)
+exercise_details = {
+    "Treadmill Sprint": {
+        "image": "Images/treadmill sprint.webp",
+        "duration": "30 sec",
+        "repeat": "4 rounds (Rest 1 min between)",
+        "summary": "Intense treadmill sprint for calorie burn.",
+        "steps": [
+            "Warm-up jog 1 minute.",
+            "Sprint 30 sec at max effort.",
+            "Rest 1 min by slow walking.",
+            "Repeat 4 rounds."
+        ]
+    },
+    "Bike Sprint": {
+        "image": "Images/bike sprint.webp",
+        "duration": "30 sec",
+        "repeat": "4 rounds (Rest 1 min between)",
+        "summary": "Bike sprints for lower-body strength.",
+        "steps": [
+            "Pedal lightly for warm-up.",
+            "Sprint intensely for 30 sec.",
+            "Rest gently pedaling for 1 min.",
+            "Repeat 4 rounds."
+        ]
+    },
+    "Rowing Sprint": {
+        "image": "Images/rowing sprint.webp",
+        "duration": "30 sec",
+        "repeat": "4 rounds (Rest 1 min between)",
+        "summary": "Rowing for full-body cardio.",
+        "steps": [
+            "Row gently for warm-up.",
+            "Row at max intensity for 30 sec.",
+            "Rest 1 min at easy pace.",
+            "Repeat 4 rounds."
+        ]
+    },
+    "Battle Rope Slams": {
+        "image": "Images/battle rope slams.webp",
+        "duration": "30 sec",
+        "repeat": "4 rounds (Rest 1 min between)",
+        "summary": "Upper-body explosive cardio workout.",
+        "steps": [
+            "Warm-up gently with rope waves.",
+            "Perform intense rope slams for 30 sec.",
+            "Rest for 1 min.",
+            "Repeat 4 rounds."
+        ]
+    },
+    "Flat Sprints": {
+        "image": "Images/flat sprints.webp",
+        "duration": "30 sec",
+        "repeat": "4 rounds (Rest 1 min between)",
+        "summary": "Outdoor flat sprints.",
+        "steps": [
+            "Light jog warm-up.",
+            "Sprint at full speed for 30 sec.",
+            "Rest for 1 min by walking.",
+            "Repeat 4 rounds."
+        ]
+    },
+    "Hill Sprints": {
+        "image": "Images/hill sprints.webp",
+        "duration": "30 sec",
+        "repeat": "4 rounds (Rest 1 min between)",
+        "summary": "Strength-focused uphill sprints.",
+        "steps": [
+            "Jog gently uphill for warm-up.",
+            "Sprint uphill at max intensity for 30 sec.",
+            "Walk down slowly for 1 min rest.",
+            "Repeat 4 rounds."
+        ]
+    },
+    "Stair Sprints": {
+        "image": "Images/stair sprints.webp",
+        "duration": "30 sec",
+        "repeat": "4 rounds (Rest 1 min between)",
+        "summary": "Stairs for power and cardio.",
+        "steps": [
+            "Walk stairs slowly to warm-up.",
+            "Sprint upstairs rapidly for 30 sec.",
+            "Rest by descending slowly (1 min).",
+            "Repeat 4 rounds."
+        ]
+    },
+    "Sand Sprints": {
+        "image": "Images/sand sprints.webp",
+        "duration": "30 sec",
+        "repeat": "4 rounds (Rest 1 min between)",
+        "summary": "Sprints on sand to improve agility.",
+        "steps": [
+            "Light jogging to warm-up.",
+            "Sprint at full pace on sand for 30 sec.",
+            "Walk slowly to recover (1 min).",
+            "Repeat 4 rounds."
+        ]
+    },
+    "Jump Squats": {
+        "image": "Images/jump squats.webp",
+        "duration": "1 min",
+        "repeat": "3 rounds (Rest 1 min between)",
+        "summary": "Explosive lower-body exercise.",
+        "steps": [
+            "Start standing; squat down deeply.",
+            "Explode upward into a jump.",
+            "Land softly and repeat continuously for 1 min.",
+            "Rest 1 min; perform 3 rounds total."
+        ]
+    },
+    "Burpees": {
+        "image": "Images/burpees.webp",
+        "duration": "1 min",
+        "repeat": "3 rounds (Rest 1 min between)",
+        "summary": "Full-body intensive burpees.",
+        "steps": [
+            "From standing, squat and place hands down.",
+            "Kick legs back to plank, then jump feet forward.",
+            "Jump upward explosively.",
+            "Continue for 1 min; rest 1 min; repeat 3 rounds."
+        ]
+    },
+    "Plank Shoulder Taps": {
+        "image": "Images/plank shoulder taps.webp",
+        "duration": "1 min",
+        "repeat": "3 rounds (Rest 1 min between)",
+        "summary": "Core and shoulder stability.",
+        "steps": [
+            "Assume plank position.",
+            "Alternate tapping shoulders for 1 min.",
+            "Rest 1 min; repeat 3 rounds."
+        ]
+    },
+    "Russian Twists": {
+        "image": "Images/russian twists.webp",
+        "duration": "1 min",
+        "repeat": "3 rounds (Rest 1 min between)",
+        "summary": "Core-strengthening rotational exercise.",
+        "steps": [
+            "Sit, lean back slightly with feet off ground.",
+            "Rotate torso side-to-side for 1 min.",
+            "Rest 1 min; repeat 3 rounds."
+        ]
+    }
+}
+
 
 indoor_sprints = list(exercise_details.keys())[:4]
 outdoor_sprints = list(exercise_details.keys())[4:8]
