@@ -89,17 +89,17 @@ exercise_details = {
         ]
     },
     "Sand Sprints": {
-        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Sand%20Sprints.webp",
-        "duration": "30 sec",
-        "repeat": "4 rounds (Rest 1 min between)",
-        "summary": "Sprints on sand to improve agility.",
-        "steps": [
-            "Light jogging to warm-up.",
-            "Sprint at full pace on sand for 30 sec.",
-            "Walk slowly to recover (1 min).",
-            "Repeat 4 rounds."
-        ]
-    },
+    "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Sand%20Sprints.webp",
+    "duration": "30 sec",
+    "repeat": "4 rounds (Rest 1 min between)",
+    "summary": "Sprints on sand to improve agility.",
+    "steps": [
+        "Light jogging to warm-up.",
+        "Sprint at full pace on sand for 30 sec.",
+        "Walk slowly to recover (1 min).",
+        "Repeat 4 rounds."
+    ]
+},
     "Jump Squats": {
         "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Jump%20Squats.webp",
         "duration": "1 min",
