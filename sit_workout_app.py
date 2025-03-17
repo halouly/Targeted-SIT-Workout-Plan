@@ -101,17 +101,17 @@ exercise_details = {
     ]
 },
     "Jump Squats": {
-        "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Jump%20Squats.webp",
-        "duration": "1 min",
-        "repeat": "3 rounds (Rest 1 min between)",
-        "summary": "Explosive lower-body exercise.",
-        "steps": [
-            "Start standing; squat down deeply.",
-            "Explode upward into a jump.",
-            "Land softly and repeat continuously for 1 min.",
-            "Rest 1 min; perform 3 rounds total."
-        ]
-    },
+    "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Jump%20Squats.webp",
+    "duration": "1 min",
+    "repeat": "3 rounds (Rest 1 min between)",
+    "summary": "Explosive lower-body exercise.",
+    "steps": [
+        "Start standing; squat down deeply.",
+        "Explode upward into a jump.",
+        "Land softly and repeat continuously for 1 min.",
+        "Rest 1 min; perform 3 rounds total."
+    ]
+},
     "Burpees": {
         "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Burpees.webp",
         "duration": "1 min",
