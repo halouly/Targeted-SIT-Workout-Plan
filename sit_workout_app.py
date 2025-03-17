@@ -208,10 +208,13 @@ def sit_workout_app():
         # Display Progress Summary
         completed_count = sum(st.session_state.completion_status)
         total_sessions = len(st.session_state.workout_plan)
-        completion_percentage = (completion_status.count(True) / len(completion_status)) * 100 if len(completion_status) > 0 else 0
+
+        completion_percentage = (
+    st.session_state.completion_status.count(True) / len(st.session_state.completion_status)
+) * 100 if len(st.session_state.completion_status) > 0 else 0
 
         st.header("📈 Workout Completion Summary")
-        st.write(f"You've completed **{completion_percentage:.0f}% ({completion_status.count(True)} of {total_workouts})** sessions this month!")
+        st.write(f"You've completed **{completion_percentage:.0f}% ({completed_count} of {total_sessions})** sessions this month!")
 
         st.progress(completion_percentage / 100)
 
