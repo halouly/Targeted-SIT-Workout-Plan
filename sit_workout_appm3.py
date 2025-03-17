@@ -191,7 +191,7 @@ def sit_workout_app():
                     st.markdown(f"**{workout_type}: {exercise_name}**")
                     st.markdown(f"⏱️ Duration: {exercise['duration']}")
                     st.markdown(f"🔄 Repeat: {exercise['repeat']}")
-                    st.image(exercise["image"], use_column_width=True)
+                    st.image(exercise["image"], use_container_width=True)
                     st.caption(exercise["summary"])
                     with st.expander("📖 Steps to Perform"):
                         for idx_step, step in enumerate(exercise["steps"], 1):
