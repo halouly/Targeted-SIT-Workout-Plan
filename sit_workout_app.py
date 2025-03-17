@@ -225,7 +225,7 @@ def sit_workout_app():
         }
 
         import pandas as pd
-        df = pd.DataFrame(df)
+        df = pd.DataFrame(df_summary)
         st.table(df)
 
 if __name__ == "__main__":
