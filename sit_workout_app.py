@@ -5,7 +5,7 @@ import pandas as pd
 # Exercise details dictionary (complete and correct)
 exercise_details = {
     "Treadmill Sprint": {
-        "image": "https://github.com/halouly/Targeted-SIT-Workout-Plan/blob/main/Images/Treadmill%20Sprint.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Images/Treadmill%20Sprint.webp",
         "duration": "30 sec",
         "repeat": "4 rounds (Rest 1 min between)",
         "summary": "Intense treadmill sprint for calorie burn.",
