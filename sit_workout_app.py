@@ -17,7 +17,7 @@ exercise_details = {
         ]
     },
     "Bike Sprint": {
-        "image": "https://github.com/halouly/Targeted-SIT-Workout-Plan/blob/main/Images/Bike%20Sprint.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Bike%20Sprint.webp",
         "duration": "30 sec",
         "repeat": "4 rounds (Rest 1 min between)",
         "summary": "Bike sprints for lower-body strength.",
@@ -29,7 +29,7 @@ exercise_details = {
         ]
     },
     "Rowing Sprint": {
-        "image": "Images/rowing sprint.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Rowing%20Sprint.webp",
         "duration": "30 sec",
         "repeat": "4 rounds (Rest 1 min between)",
         "summary": "Rowing for full-body cardio.",
@@ -41,7 +41,7 @@ exercise_details = {
         ]
     },
     "Battle Rope Slams": {
-        "image": "Images/battle rope slams.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Battle%20Rope%20Slams.webp",
         "duration": "30 sec",
         "repeat": "4 rounds (Rest 1 min between)",
         "summary": "Upper-body explosive cardio workout.",
@@ -53,7 +53,7 @@ exercise_details = {
         ]
     },
     "Flat Sprints": {
-        "image": "Images/flat sprints.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Flat%20Sprints.webp",
         "duration": "30 sec",
         "repeat": "4 rounds (Rest 1 min between)",
         "summary": "Outdoor flat sprints.",
@@ -65,7 +65,7 @@ exercise_details = {
         ]
     },
     "Hill Sprints": {
-        "image": "Images/hill sprints.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Hill%20Sprints.webp",
         "duration": "30 sec",
         "repeat": "4 rounds (Rest 1 min between)",
         "summary": "Strength-focused uphill sprints.",
@@ -77,7 +77,7 @@ exercise_details = {
         ]
     },
     "Stair Sprints": {
-        "image": "Images/stair sprints.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Stair%20Sprints.webp",
         "duration": "30 sec",
         "repeat": "4 rounds (Rest 1 min between)",
         "summary": "Stairs for power and cardio.",
@@ -89,7 +89,7 @@ exercise_details = {
         ]
     },
     "Sand Sprints": {
-        "image": "Images/sand sprints.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Sand%20Sprints.webp",
         "duration": "30 sec",
         "repeat": "4 rounds (Rest 1 min between)",
         "summary": "Sprints on sand to improve agility.",
@@ -101,7 +101,7 @@ exercise_details = {
         ]
     },
     "Jump Squats": {
-        "image": "Images/jump squats.webp",
+        "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Jump%20Squats.webp",
         "duration": "1 min",
         "repeat": "3 rounds (Rest 1 min between)",
         "summary": "Explosive lower-body exercise.",
@@ -113,7 +113,7 @@ exercise_details = {
         ]
     },
     "Burpees": {
-        "image": "Images/burpees.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Burpees.webp",
         "duration": "1 min",
         "repeat": "3 rounds (Rest 1 min between)",
         "summary": "Full-body intensive burpees.",
@@ -125,7 +125,7 @@ exercise_details = {
         ]
     },
     "Plank Shoulder Taps": {
-        "image": "Images/plank shoulder taps.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Plank%20Shoulder%20Taps.webp",
         "duration": "1 min",
         "repeat": "3 rounds (Rest 1 min between)",
         "summary": "Core and shoulder stability.",
@@ -136,7 +136,7 @@ exercise_details = {
         ]
     },
     "Russian Twists": {
-        "image": "Images/russian twists.webp",
+        "image": "https://raw.githubusercontent.com/halouly/Targeted-SIT-Workout-Plan/c2b8a3afdd97cb84ba3e4898dbab36f64713809c/Russian%20Twists.webp",
         "duration": "1 min",
         "repeat": "3 rounds (Rest 1 min between)",
         "summary": "Core-strengthening rotational exercise.",
